@@ -1,17 +1,22 @@
 {
   "name": "truffle",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/ryotarohada/truffle.git",
   "author": "Ryotaro Hada <67140275+ryotarohada@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "truffle": "truffle"
+    "truffle": "truffle",
+    "build": "truffle compile",
+    "migrate": "truffle migrate",
+    "console": "truffle console",
+    "lint": "solhint **/*.sol",
+    "prettier": "prettier --write \"**/*.+(js|sol)\""
   },
   "devDependencies": {
+    "dotenv": "^16.0.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.24",
+    "solhint": "^3.3.7",
     "truffle": "^5.6.3"
-  },
-  "dependencies": {
-    "dotenv": "^16.0.3"
   }
 }

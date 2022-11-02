@@ -2,9 +2,9 @@
 pragma solidity ^0.8.0;
 
 contract Counter {
-  uint public count = 0;
+  uint256 public count = 0;
 
-  function read() public view returns (uint) {
+  function read() public view returns (uint256) {
     return count;
   }
 
@@ -16,7 +16,7 @@ contract Counter {
     count -= 1;
   }
 
-  function add(uint value) public {
+  function add(uint256 value) public {
     count += value;
   }
 }
