@@ -1,0 +1,17 @@
+{
+  "name": "truffle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ryotarohada/truffle.git",
+  "author": "Ryotaro Hada <67140275+ryotarohada@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "truffle": "truffle"
+  },
+  "devDependencies": {
+    "truffle": "^5.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
